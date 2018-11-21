@@ -15,7 +15,7 @@ def rem(a,b):
     return a%b
 
 
-total_input = raw_input()
+total_input = input()
 split_count = 0
 i_cnt = 0
 
@@ -30,9 +30,9 @@ while True:
         break
     elif total_input[i_cnt] == "%":
         break
-    else:
-        print("Wrong Input")
-        quit()
+    #else:
+    #    print("Wrong Input")
+    #    quit()
     
     i_cnt = i_cnt + 1
 
